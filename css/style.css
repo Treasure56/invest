@@ -241,3 +241,21 @@ nav.navbar {
   width: 300px;
   height: 300px;
 }
+
+.profit {
+  background-color: #31065b;
+}
+
+@media (max-width: 768px) {
+  .plan-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-section .about img {
+    width: 100px;
+  }
+  .about-section .big-img {
+    width: 100px;
+  }
+}
