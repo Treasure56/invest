@@ -313,6 +313,7 @@ nav.navbar {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+/* table */
 .table-section {
   background-color: #40096e;
 }
@@ -341,6 +342,49 @@ nav.navbar {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+
+.working-progress {
+  background-color: #40096e;
+}
+.working-progress .shape {
+  /* border: 1px solid #0d8cbb; */
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 48px;
+  border: dotted;
+  margin: auto;
+  border-color: #e1696a;
+}
+.working-progress .shape .shape-content {
+  background-color: #e1696a;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+}
+.faq {
+  background-color: #2c0759;
+}
+.accordion-button {
+  background-color: #40096e !important;
+}
+.accordion-item {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.app {
+  background-color: #40096e;
+}
+.app .button1 {
+  background-color: #df5f6f;
+  border-radius: 30px;
+  width: 180px;
+  border: none;
+  /* padding-top: 5px; */
+  /* padding-bottom: 5px; */
 }
 
 @media (max-width: 768px) {
