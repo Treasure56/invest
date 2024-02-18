@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow: none;
+  /* outline: 2px solid red; */
+  /* outline: 1px solid red; */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar styling */
+nav.navbar {
+  background-color: transparent;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  /* background-color: #ffffff !important; */
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.offcanvas-end {
+  width: 223px;
+}
+.nav-button .first-btn {
+  background-color: transparent !important;
+  border: 2px solid #47b2e4 !important;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 24px 7px 24px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+}
+.nav-button .first-btn:hover {
+  background-color: #47b2e4 !important;
+  color: white !important;
+}
+.nav-button .second-btn {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 24px 7px 24px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #47b2e4;
+}
+
+/* hero section */
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/asset/img/investment2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero .container {
+  padding-top: 72px;
+}
+.contact-section {
+  background-color: #40096e;
+}
+.contact-section .contact-content {
+  background-color: #00000055;
+  color: #ffff;
+}
+.contact-section .contact-content img {
+  width: 90px;
+  height: 100px;
+}
+.contact-section .form {
+  background-color: #00000055 !important;
+}
+.contact-section form input {
+  background-color: transparent !important;
+  border: 1px solid gray !important;
+}
+.contact-section form textarea {
+  background-color: transparent !important;
+  border: 1px solid gray !important;
+}
+.contact-section button {
+  background-color: #e57964 !important;
+  color: #ffffff;
+  font-weight: bold;
+}
+footer {
+  background-color: #2f095c;
+}
+
+@media (max-width: 768px) {
+  .contact-section .form {
+    margin-top: 30px;
+  }
+}
