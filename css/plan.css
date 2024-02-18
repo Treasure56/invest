@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow: none;
+  /* outline: 2px solid red; */
+  /* outline: 1px solid red; */
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* navbar styling */
+nav.navbar {
+  background-color: transparent;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  /* background-color: #ffffff !important; */
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.offcanvas-end {
+  width: 223px;
+}
+.nav-button .first-btn {
+  background-color: transparent !important;
+  border: 2px solid #47b2e4 !important;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 24px 7px 24px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+}
+.nav-button .first-btn:hover {
+  background-color: #47b2e4 !important;
+  color: white !important;
+}
+.nav-button .second-btn {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 6px 24px 7px 24px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #47b2e4;
+}
+
+/* hero section */
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/asset/img/investment2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero .container {
+  padding-top: 72px;
+}
+.investment-plan {
+  background-color: #40096e;
+}
+.plan-content .box1 {
+  background-color: #0d8cbb;
+  border-radius: 10px;
+  box-shadow: #000000;
+  width: 300px;
+  height: 300px;
+}
+.plan-content .box2 {
+  background-color: #e1696a;
+  border-radius: 10px;
+  box-shadow: #000000;
+  width: 300px;
+  height: 300px;
+}
+.plan-content .box3 {
+  background-color: #b82bb2;
+  border-radius: 10px;
+  box-shadow: #000000;
+  width: 300px;
+  height: 300px;
+}
+.plan-content .box4 {
+  background-color: #60cc43;
+  border-radius: 10px;
+  box-shadow: #000000;
+  width: 300px;
+  height: 300px;
+}
+.profit {
+  background-color: #31065b;
+}
+.working-progress {
+  background-color: #40096e;
+}
+.working-progress .shape {
+  /* border: 1px solid #0d8cbb; */
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 48px;
+  border: dotted;
+  margin: auto;
+  border-color: #e1696a;
+}
+.working-progress .shape .shape-content {
+  background-color: #e1696a;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+}
+.referal {
+  background-color: #e88461;
+  color: white;
+}
+.referal button {
+  background-color: #47b2e4;
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.app {
+  background-color: #40096e;
+}
+.btn-download {
+  border-radius: 30px;
+  background-color: #007bff;
+  color: white;
+  padding: 6px 12px; /* reduced padding */
+  border: none;
+  width: 200px;
+  height: 55px;
+}
+footer {
+  background-color: #2f095c;
+}
+
+/* responsiveness */
+
+@media (max-width: 768px) {
+  .plan-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
