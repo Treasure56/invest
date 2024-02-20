@@ -116,6 +116,11 @@ nav.navbar {
 .profit {
   background-color: #31065b;
 }
+.profit form input,
+select {
+  background-color: transparent !important;
+  border: 1px solid gray !important;
+}
 .working-progress {
   background-color: #40096e;
 }
