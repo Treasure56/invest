@@ -67,6 +67,9 @@ nav.navbar {
   color: #fff;
   background: #47b2e4;
 }
+#navbar.scrolled {
+  background-color: #000055ee;
+}
 
 /* hero section */
 
@@ -165,7 +168,6 @@ select {
   padding: 6px 12px; /* reduced padding */
   border: none;
   width: 200px;
-  height: 55px;
 }
 footer {
   background-color: #2f095c;
@@ -178,5 +180,10 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+@media (max-width: 999px) {
+  .offcanvas.offcanvas-end {
+    background-color: black !important;
   }
 }

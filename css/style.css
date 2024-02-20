@@ -67,6 +67,9 @@ nav.navbar {
   color: #fff;
   background: #47b2e4;
 }
+#navbar.scrolled {
+  background-color: #000055ee;
+}
 
 /* hero section */
 
@@ -390,7 +393,7 @@ select {
   padding: 6px 12px; /* reduced padding */
   border: none;
   width: 200px;
-  height: 55px;
+  /* height: 55px; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -482,5 +485,10 @@ footer {
     color: black !important;
     font-size: 16px;
     font-weight: 500;
+  }
+}
+@media (max-width: 999px) {
+  .offcanvas.offcanvas-end {
+    background-color: black !important;
   }
 }

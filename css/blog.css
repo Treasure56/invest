@@ -67,6 +67,9 @@ nav.navbar {
   color: #fff;
   background: #47b2e4;
 }
+#navbar.scrolled {
+  background-color: #000055ee;
+}
 
 /* hero section */
 
@@ -110,4 +113,10 @@ nav.navbar {
 }
 footer {
   background-color: #2f095c;
+}
+
+@media (max-width: 999px) {
+  .offcanvas.offcanvas-end {
+    background-color: black !important;
+  }
 }
